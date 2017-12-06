@@ -1,0 +1,452 @@
+*{padding:0;margin:0;font-family: 'Open Sans', sans-serif;}
+section,footer,aside,header,nav{display:block;}
+body{
+	background: url(index_files/body.jpg) no-repeat center fixed;
+	background-size: cover;
+	font-size:14px;
+}
+
+.left{float:left;width:45%; margin:0px;}
+.right{width:45%;float:left;margin:0px;}
+.clear{clear: both;}
+#banner{
+	background: white;
+	width: 100%;
+	height: auto;
+	z-index: 2;
+
+}
+#banner img{
+	height:150px;
+	width: 1000px;
+	
+	position: fixed;
+	z-index: 2;
+	top:0;
+}
+
+header{
+	background: url(index_files/body.jpg) repeat-x ;
+	width:1000px;;
+	margin:0 auto;
+	padding-top: 4px;
+	font-size:20px;
+	font-weight: bold;
+	color:white;
+	position:fixed;
+	top:150px;
+	z-index: 2;
+  background-color:#01051E;
+  text-align: center; 
+}
+
+
+
+
+#container{
+	width:1000px;
+	margin:236px auto 10px auto;
+	background: rgba(255,255,255,.95);
+}
+.containera{
+	width:1000px;
+	margin:0px auto;
+}
+ul{
+	list-style-type: none;
+}
+aside{												/*--ASIDE--*/
+	float:left;
+	width:250px;
+	padding:0px 10px 10px 10px;
+	margin:10px 0px;
+	/*margin-right: -1px;
+	border-right: 1px solid gray;*/
+}
+aside h3,aside h4{
+	text-align: center;
+}
+aside ul{
+}
+
+aside ul>li{
+	margin:10px 0px;
+}
+aside ul>li>a:hover>img{
+	box-shadow: 0px 0px 10px black;
+}
+aside ul>li>a>p{
+	padding: 20px 5px 0px 0px;
+
+
+}
+aside img{
+	padding:10px 15px;
+	width:200px;
+
+}
+aside div{
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+aside div:last-child{
+	border: 0;
+}
+aside>div:nth-child(2n+1){
+	/*box-shadow: 0px 0px 10px #e0dede;
+	background: #F4F4F4;*/
+}
+aside #kalendar ul li{
+	line-height: 12px;
+}
+nav {
+	width:900px;
+	margin:0px 0px 0px 15px;
+	color:white;
+	padding-right: 50px;
+
+}
+nav img {
+	float:left;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+nav div{
+	list-style-type: none;
+	margin: 0 auto;
+}
+nav ul>li{
+	display: inline;
+	text-align: left;
+	margin-right: 15px;
+}
+nav ul>li:nth-child(3),
+nav ul>li:nth-child(11),
+nav ul>li:nth-child(12)
+{
+	margin-left: 17px;
+}
+
+nav ul>li>a{
+
+	font-size: 14px;
+	line-height: 21px;
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+	/*margin:5px 5px;*/
+	transition:.2s;
+	border-radius:10px;
+}
+nav ul>li>a:hover{
+	
+	text-decoration:underline;
+}
+
+#currentpage{
+	padding-left: 40px;
+	text-decoration:underline;
+	box-shadow: 0px 0px 10px black;
+	background: #C9C9C9;
+}
+													/*--END-ASIDE--*/
+
+
+
+													/*--SECTION--*/
+section{
+	width:745px;
+	padding: 0px 8px;
+	overflow: hidden;
+	/*border-left: 1px solid gray;
+	margin-left: -1px;*/
+
+}
+
+section h1{
+	text-align: center;
+
+}
+								/*--END-SECTION--*/
+
+
+
+
+
+
+
+													/*--FOOTER--*/
+
+footer{
+	clear:both;
+	border-top:1px solid gray;
+	color:gray;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+	margin:0px 10px;
+}
+footer img	{
+	width:30px;
+	height: auto;
+	border-radius: 30px;
+}
+#backToTopBtn{
+	position:fixed;
+	right:0;
+	bottom:0;
+}
+													/*--END-FOOTER--*/
+#uvod p img{
+	width:100%;
+}
+#aktuality{
+	margin-top: -20px;
+	text-align: left
+}
+
+#aktuality>ul>li{
+	width:100%;
+font-size: 14px;
+padding: 10px;
+
+	
+}
+
+#aktuality>ul>li:nth-child(2n+1){
+	box-shadow: 0px 0px 10px #e0dede;
+	background: #F4F4F4;
+}
+#aktuality ul>li>a>p{
+	display:block;
+
+	}
+#aktuality ul li a{
+	display: block;
+	width:100%;
+
+
+}
+
+
+#aktdetail img{
+	max-width: 200px;
+	height: auto;
+	float:left
+}
+.galeria{
+	text-align: center;
+}
+
+ table{
+	 width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+   border: 1px solid #ddd;
+}
+
+ table tr>td, table tr>th{
+	  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: center;
+  border-top: 1px solid #ddd;
+   border: 1px solid #ddd;
+}
+#rebricek table,#kalendar table{
+	border:0;
+}
+#rebricek table tr>td,#rebricek table tr>th,
+#kalendar table tr>td,#kalendar table tr>th{
+	border: 0;
+	vertical-align: center;
+}
+#rebricek table tr:nth-child(2n){
+	background: #e5e3e3;
+}
+#rebricek table tr>td,#rebricek table tr>th{
+	padding: 0px;
+}
+
+#regiony img, map area{
+	outline: none;
+}
+
+
+#vykvyb{
+	overflow:hidden;
+}
+
+#vykvyb img{
+	width:170px;
+}
+
+.vv  {
+ 	text-align: left;
+ 	width:40%;
+ 	float:left;
+ 	margin: 0 30px
+}
+.vv li{
+	margin:10px 0px;
+}
+
+
+.dr  {
+ 	margin: 0 30px;
+	float:left;
+ 	text-align: left;
+ 	width:40%;
+}
+.dr li{
+	margin:10px 0px;
+}
+#superliga ul li,
+#download ul li,
+#komisie ul li{
+	text-align: left;
+	margin-bottom: 8px;
+}
+#zapisyvv ul{
+	margin:0 10px;
+}
+
+#kontakt table{
+	font-size: 12px;
+}
+
+.date{
+	font-size: 10px;
+}
+#slovenskypohar table{
+	margin:0 auto;
+	font-size:13px;
+}
+#slovenskypohar  th{
+	font-size:18px;	
+}
+#slovenskypohar  th, #slovenskypohar td{
+
+	padding:20px 20px 0px 25px;
+	//border:1px solid black;
+}
+#slovenskypoharmladeze table{
+	font-size: 13px;
+}
+#slovenskypoharmladeze h2{
+	margin-bottom:10px;
+}
+#slovenskypoharmladeze div img{
+	width:150px;
+	height:auto;
+	margin-bottom:10px;
+
+}
+
+#slovenskypoharmladeze .left,#slovenskypoharmladeze .right{
+	width:400px;
+
+}
+
+#zakdok{
+	text-align: left;
+	
+}
+#zakdok h1{
+	text-align: center;
+}
+#zakdok ul li{
+	margin-bottom: 10px;
+}
+
+
+
+#casopis ul li{
+	display: inline-block;
+	margin:10px;
+}
+ 
+ #odkazy ul li{
+ 	margin-bottom: 8px;
+ }
+#rebricek{
+	text-align: left;
+}
+#rebricek table{
+	width:120%;
+	font-size: 12px;
+
+
+}
+
+#rebricek tr {
+	line-height: 25px;
+}
+#rebricek table tr>th:nth-child(1),
+#rebricek table tr>td:nth-child(1),
+#rebricek table tr>th:nth-child(2),
+#rebricek table tr>td:nth-child(2){
+	width:10px;
+	padding: 0px 0px 0px 5px;
+
+}
+
+#rebricek th,#rebricek td{
+	padding-left:5px;
+
+}
+
+
+#kalendar table {
+	width:100%;
+}
+#kalendar th{
+	font-size: 13px;
+}
+
+#kalendar td{
+	padding:3px 3px;
+}
+#kalendar td{
+	font-size:11px;
+}
+#kalendar ul{
+white-space: nowrap;
+overflow: hidden;
+}
+#kalendar ul li{
+	width:100%;
+	font-size: 12px;
+
+}
+
+
+#slideshow { 
+    height:150px;
+    position: relative; 
+  
+}
+
+#slideshow > div { 
+    position: absolute; 
+
+   
+}
+#slideshow > div img,#slideshow2 > div img{
+	position: absolute;
+top:-20px;
+	left:-25px;
+	width:260px;
+}
+#slideshow2 { 
+    height:150px;
+    position: relative; 
+  
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+   
+}
+#slideshow2 > div img{
+	width:240px;
+}
