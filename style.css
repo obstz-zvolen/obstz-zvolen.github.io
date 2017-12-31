@@ -2,9 +2,11 @@
 body {
 font-family: Arial, Georgia, Verdana, 'Times New Roman', Serif;
 font-size: 11px;
-background: url(./images/pozadie.JPG);
+background: url(images/pozadie.JPG);
 color: #fff;
 }
+
+
 
 img {
 border: 0;
@@ -12,11 +14,6 @@ border: 0;
 
 img a {
 border: 0;
-}
-
-bg {
-    text-align:center;
-display:block;
 }
 
 
