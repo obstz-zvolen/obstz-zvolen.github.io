@@ -2,7 +2,8 @@
 body {
 font-family: Arial, Georgia, Verdana, 'Times New Roman', Serif;
 font-size: 11px;
-background: url(images/pozadie.JPG);
+background: url(images/pozadie.JPG) repeat-x top;
+margin: 0; padding: 0;
 color: #fff;
 }
 
