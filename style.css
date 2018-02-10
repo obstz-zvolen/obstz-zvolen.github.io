@@ -8,6 +8,10 @@ background: url(images/pozadie.jpg);
 color: #FFFF;
 }
 
+paging {
+text-align: right;
+}
+
 img {
 border: 0;
 }
