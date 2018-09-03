@@ -1,0 +1,12 @@
+      <div id="heading-box">
+        <div id="heading-box-cnt">
+          <div class="cl">&nbsp;</div>
+          <!-- Main Slide Item -->
+          <div class="featured-main"> <a href="#"><img src="./foto/Debl.jpg" alt="" /></a>
+            <div class="featured-main-details">
+              <div class="featured-main-details-cnt">
+                <h4><a href="https://sokol-sielnica.mypage.cz">Turnaj DEBL CUP 2018. je za nami. Ïakujeme všetkým zúèastneným.Kompletné výsledky turnaja už nájdete na stránke Sokol Sielnica.tu https://sokol-sielnica.mypage.cz/</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Main Slide Item -->

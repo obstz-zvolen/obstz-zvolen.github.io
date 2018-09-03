@@ -1,0 +1,134 @@
+	/* Start Right */
+#right {
+float: right;
+width: 705px;
+border-width: 8px 5px 7px 5px;
+border-style: solid;
+border-color: #171717;
+background: #171717;
+}
+
+.right_title {
+padding: 4px 6px;
+_padding: 4px 6px 2px 6px;
+width: 700px;
+margin: 5px 0 0 0;
+background: #9FEA00;
+font-weight: bold;
+font-size: 11px;
+}
+
+.right_title_left {
+float: left;
+width: 300px;
+}
+
+.right_title_date {
+float: right;
+display: inline;
+width: 200px;
+text-align: right;
+font-weight: normal;
+font-size: 11px;
+}
+
+.right_title_clear {
+clear: both;
+}
+
+
+
+.right_title_date a {
+color: #fff1;
+font-style: italic;
+}
+
+.right_subtitle {
+padding: 4px 4px 0 14px;
+width: 530px;
+height: 18px;
+background: url(images/right_subtitle.gif);
+font-size: 11px;
+}
+
+.right_subtitle2 {
+padding: 4px 4px 0 14px;
+width: 530px;
+height: 18px;
+background: url(images/right_subtitle.gif);
+font-size: 11px;
+font-style: italic;
+color: #126ecb;
+}
+
+.right_subtitle a {
+font-style: italic;
+}
+
+.right_content {
+width: 536px;
+padding: 0 6px 6px 6px;
+_padding: 10px 6px 6px 6px;
+}
+
+.roster_title {
+font-weight: bold;
+color: #126ecb;
+padding: 2px 6px;
+}
+/* End Right */
+
+
+/* Button */
+a.button2 {background: url(images/button2.png) no-repeat 0 0; float: right; width: 81px;height: 36px; display: block; color: #373737; font-size: 10px; padding-top: 5px; text-align: center; text-transform: uppercase;}
+/* End */
+
+
+/* Tables */
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.featured-main2 {position: relative; width: 440px; float: left;}
+.featured-main2 img {border: 1px solid #000;}
+.featured-main-details2 {position: absolute; left: : 0; top: 260px;}
+.featured-main-details-cnt2 { background: url(images/featured-main-details.png) repeat 0 0; width: 425px; height: 44px; padding-left: 10px; padding-top: 7px; padding-right: 5px;}
+.featured-main-details2 h4, .featured-main-details h4 a {font-size: 12px; color: #9fea00;}
+.featured-main-details2 p {color: #c9c9c9; font-size: 10px;}
